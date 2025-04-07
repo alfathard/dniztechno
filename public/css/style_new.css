@@ -1,0 +1,1526 @@
+/* .mediaViewInfo {
+    --web-view-name: Home;
+    --web-view-id: Home;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root { 
+    --web-view-ids: Home;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+} */
+#body {
+    width: 100%;
+    height: 100%;
+    }
+#Home {
+    position: relative;
+    width: 1920px;
+    height: 4213px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Home;
+    --web-view-id: Home;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+.BG_Home_s {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 4213px;
+    left: 0px;
+    top: 0px;
+}
+#Ornament_2x {
+    opacity: 0.5;
+    position: absolute;
+    width: 1020px;
+    height: 850.988px;
+    left: 1041px;
+    top: 199px;
+    overflow: visible;
+}
+#Ornament_2x_u {
+    opacity: 0.5;
+    position: absolute;
+    width: 1020px;
+    height: 851px;
+    left: -209px;
+    top: -24px;
+    overflow: visible;
+}
+.BG_About_Us {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1049px;
+    left: 0px;
+    top: 827px;
+}
+#Packages {
+    position: absolute;
+    width: 331px;
+    height: 528px;
+    left: 47px;
+    top: 2180px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Slim_Plan.html;
+    cursor: pointer;
+}
+.Rectangle_1_y {
+    filter: drop-shadow(15px 20px 10px rgba(16, 15, 15, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 563px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 38px;
+    left: 86px;
+    top: 458px;
+}
+#See_More {
+    position: absolute;
+    left: 124px;
+    top: 462px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co {
+    position: absolute;
+    left: 73px;
+    top: 270px;
+    overflow: visible;
+    width: 187px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(136,187,242,1);
+}
+#SlimPlan {
+    position: absolute;
+    width: 185px;
+    height: 243px;
+    left: 74px;
+    top: 21px;
+    overflow: visible;
+}
+#SlimPlan_ {
+    position: absolute;
+    left: 0px;
+    top: 183px;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#SlimPlan_2x {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    left: 2px;
+    top: 0px;
+    overflow: visible;
+}
+#Packages_ {
+    position: absolute;
+    width: 331px;
+    height: 528px;
+    left: 418px;
+    top: 2180px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Slim_Online.html;
+    cursor: pointer;
+}
+.Rectangle_1_ba {
+    filter: drop-shadow(15px 20px 10px rgba(16, 15, 15, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 563px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_2_ {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 38px;
+    left: 86px;
+    top: 458px;
+}
+#See_More_ {
+    position: absolute;
+    left: 124px;
+    top: 462px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_ba {
+    position: absolute;
+    left: 73px;
+    top: 270px;
+    overflow: visible;
+    width: 187px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(136,187,242,1);
+}
+#SlimOnline {
+    position: absolute;
+    width: 226px;
+    height: 239px;
+    left: 53px;
+    top: 22px;
+    overflow: visible;
+}
+#SlimOnline_bc {
+    position: absolute;
+    left: 0px;
+    top: 181px;
+    overflow: visible;
+    width: 227px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    color: rgba(255,255,255,1);
+}
+#SlimOnline_2x {
+    position: absolute;
+    width: 180.617px;
+    height: 180.617px;
+    left: 24.847px;
+    top: 0px;
+    overflow: visible;
+}
+#Packages_be {
+    position: absolute;
+    width: 331px;
+    height: 528px;
+    left: 789px;
+    top: 2180px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Slim_Profile.html;
+    cursor: pointer;
+}
+.Rectangle_1_bg {
+    filter: drop-shadow(15px 20px 10px rgba(16, 15, 15, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 563px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_2_bh {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 38px;
+    left: 86px;
+    top: 458px;
+}
+#See_More_bi {
+    position: absolute;
+    left: 124px;
+    top: 462px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_bj {
+    position: absolute;
+    left: 73px;
+    top: 270px;
+    overflow: visible;
+    width: 187px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(136,187,242,1);
+}
+#SlimProfile {
+    position: absolute;
+    width: 232px;
+    height: 243px;
+    left: 50px;
+    top: 14px;
+    overflow: visible;
+}
+#SlimProfile_bl {
+    position: absolute;
+    left: 0px;
+    top: 183px;
+    overflow: visible;
+    width: 233px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#SlimProfile_2x {
+    position: absolute;
+    width: 182.301px;
+    height: 182.301px;
+    left: 26.886px;
+    top: 0px;
+    overflow: visible;
+}
+#Packages_bn {
+    position: absolute;
+    width: 331px;
+    height: 528px;
+    left: 1160px;
+    top: 2180px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Slim_Education.html;
+    cursor: pointer;
+}
+.Rectangle_1_bp {
+    filter: drop-shadow(15px 20px 10px rgba(16, 15, 15, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 563px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_2_bq {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 38px;
+    left: 86px;
+    top: 458px;
+}
+#See_More_br {
+    position: absolute;
+    left: 124px;
+    top: 462px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_bs {
+    position: absolute;
+    left: 73px;
+    top: 270px;
+    overflow: visible;
+    width: 187px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(136,187,242,1);
+}
+#SlimEducation {
+    position: absolute;
+    width: 302px;
+    height: 244px;
+    left: 15px;
+    top: 16px;
+    overflow: visible;
+}
+#SlimEducation_bu {
+    position: absolute;
+    left: 0px;
+    top: 184px;
+    overflow: visible;
+    width: 303px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#SlimEducation_2x {
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 62px;
+    top: 0px;
+    overflow: visible;
+}
+#Packages_bw {
+    position: absolute;
+    width: 331px;
+    height: 528px;
+    left: 1531px;
+    top: 2180px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Slim_Service.html;
+    cursor: pointer;
+}
+.Rectangle_1_by {
+    filter: drop-shadow(15px 20px 10px rgba(16, 15, 15, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 563px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_2_bz {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 38px;
+    left: 86px;
+    top: 458px;
+}
+#See_More_b {
+    position: absolute;
+    left: 124px;
+    top: 462px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_b {
+    position: absolute;
+    left: 73px;
+    top: 270px;
+    overflow: visible;
+    width: 187px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(136,187,242,1);
+}
+#SlimService {
+    position: absolute;
+    width: 256px;
+    height: 252px;
+    left: 38px;
+    top: 12px;
+    overflow: visible;
+}
+#SlimService_b {
+    position: absolute;
+    left: 0px;
+    top: 189px;
+    overflow: visible;
+    width: 257px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    color: rgba(255,255,255,1);
+}
+#SlimService_2x {
+    position: absolute;
+    width: 189px;
+    height: 189px;
+    left: 34px;
+    top: 0px;
+    overflow: visible;
+}
+#Our_Packages {
+    position: absolute;
+    width: 862px;
+    height: 127px;
+    left: 526px;
+    top: 1988px;
+    overflow: visible;
+}
+#Pilihan_Paket {
+    position: absolute;
+    left: 309px;
+    top: 0px;
+    overflow: visible;
+    width: 245px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_ca {
+    position: absolute;
+    left: 0px;
+    top: 73px;
+    overflow: visible;
+    width: 863px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#About_us {
+    position: absolute;
+    width: 1182px;
+    height: 296px;
+    left: 369px;
+    top: 902px;
+    overflow: visible;
+}
+#Tentang_Kami {
+    position: absolute;
+    left: 430px;
+    top: 0px;
+    overflow: visible;
+    width: 323px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(255,255,255,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_cb {
+    position: absolute;
+    left: 0px;
+    top: 104px;
+    overflow: visible;
+    width: 1183px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 38px;
+    left: 511px;
+    top: 258px;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: About_Us.html;
+    cursor: pointer;
+}
+#Telah_Menggunakan {
+    position: absolute;
+    width: 862px;
+    height: 127px;
+    left: 532px;
+    top: 2896px;
+    overflow: visible;
+}
+#Telah_Menggunakan_cd {
+    position: absolute;
+    left: 240px;
+    top: 0px;
+    overflow: visible;
+    width: 383px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,187,242,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co_ce {
+    position: absolute;
+    left: 0px;
+    top: 73px;
+    overflow: visible;
+    width: 863px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Repeat_Grid_2 {
+    position: absolute;
+    width: 1941px;
+    height: 302px;
+    left: 39px;
+    top: 3094px;
+    overflow: hidden;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: View_Costumer.html;
+    cursor: pointer;
+}
+#Repeat_Grid_2_0 {
+    position: absolute;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Happy_Costumer {
+    position: absolute;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+}
+#Budi_Suharjo {
+    position: absolute;
+    left: 185px;
+    top: 48px;
+    overflow: visible;
+    width: 242px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(40,108,181,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    height: 114px;
+    left: 49px;
+    top: 48px;
+}
+#Lorem_ipsum_dolor_sit_amet__co_cl {
+    position: absolute;
+    left: 185px;
+    top: 153px;
+    overflow: visible;
+    width: 571px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(40,108,181,1);
+}
+#PT__Laksana_Agung {
+    position: absolute;
+    left: 185px;
+    top: 105px;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(119,117,117,1);
+}
+#Repeat_Grid_2_1 {
+    position: absolute;
+    width: 804px;
+    height: 302px;
+    left: 854px;
+    top: 0px;
+    overflow: visible;
+}
+#Happy_Costumer_co {
+    position: absolute;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Rectangle_3_cp {
+    position: absolute;
+    overflow: visible;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+}
+#Budi_Suharjo_cq {
+    position: absolute;
+    left: 185px;
+    top: 48px;
+    overflow: visible;
+    width: 242px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(40,108,181,1);
+}
+.Ellipse_1_cr {
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    height: 114px;
+    left: 49px;
+    top: 48px;
+}
+#Lorem_ipsum_dolor_sit_amet__co_cs {
+    position: absolute;
+    left: 185px;
+    top: 153px;
+    overflow: visible;
+    width: 571px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(40,108,181,1);
+}
+#PT__Laksana_Agung_ct {
+    position: absolute;
+    left: 185px;
+    top: 105px;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(119,117,117,1);
+}
+#Repeat_Grid_2_2 {
+    position: absolute;
+    width: 804px;
+    height: 302px;
+    left: 1708px;
+    top: 0px;
+    overflow: visible;
+}
+#Happy_Costumer_cv {
+    position: absolute;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Rectangle_3_cw {
+    position: absolute;
+    overflow: visible;
+    width: 804px;
+    height: 302px;
+    left: 0px;
+    top: 0px;
+}
+#Budi_Suharjo_cx {
+    position: absolute;
+    left: 185px;
+    top: 48px;
+    overflow: visible;
+    width: 242px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(40,108,181,1);
+}
+.Ellipse_1_cy {
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    height: 114px;
+    left: 49px;
+    top: 48px;
+}
+#Lorem_ipsum_dolor_sit_amet__co_cz {
+    position: absolute;
+    left: 185px;
+    top: 153px;
+    overflow: visible;
+    width: 571px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(40,108,181,1);
+}
+#PT__Laksana_Agung_c {
+    position: absolute;
+    left: 185px;
+    top: 105px;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(119,117,117,1);
+}
+#Menu {
+    position: absolute;
+    width: 703px;
+    height: 33px;
+    left: 1065px;
+    top: 60px;
+    overflow: visible;
+}
+#Beranda {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(18,248,200,1);
+}
+#Tentang_Kami_c {
+    position: absolute;
+    left: 154px;
+    top: 0px;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: About_Us.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(136,187,242,1);
+}
+#Paket {
+    position: absolute;
+    left: 368px;
+    top: 0px;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Slim_Profile.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(136,187,242,1);
+}
+#Artikel {
+    position: absolute;
+    left: 492px;
+    top: 0px;
+    overflow: visible;
+    width: 72px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Article.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(136,187,242,1);
+}
+#Kontak {
+    position: absolute;
+    left: 627px;
+    top: 0px;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Contact.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(136,187,242,1);
+}
+#See_More_c {
+    position: absolute;
+    left: 918px;
+    top: 1164px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Your_Technology_SOLUTION_ {
+    position: absolute;
+    left: 925px;
+    top: 351px;
+    overflow: visible;
+    width: 611px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    color: rgba(136,187,242,1);
+}
+#ID24h {
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    left: 1485px;
+    top: 347px;
+    display: none;
+    overflow: visible;
+}
+#ID24h_da {
+    position: absolute;
+    left: 58.002px;
+    top: 59.485px;
+    overflow: visible;
+    width: 117px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    color: rgba(136,187,242,1);
+}
+.Subtraction_5 {
+    overflow: visible;
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Bottom {
+    position: absolute;
+    width: 1921.055px;
+    height: 550.91px;
+    left: 0px;
+    top: 3662.09px;
+    overflow: visible;
+}
+#Bottom_BG {
+    position: absolute;
+    width: 1921.055px;
+    height: 550.91px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Path_2_dl {
+    opacity: 0.39;
+}
+.Path_2_dl {
+    overflow: visible;
+    position: absolute;
+    width: 1919.899px;
+    height: 535px;
+    left: 0px;
+    top: 15.91px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_3_dn {
+    opacity: 0.39;
+}
+.Path_3_dn {
+    overflow: visible;
+    position: absolute;
+    width: 1919.899px;
+    height: 550.91px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_1_dj {
+    overflow: visible;
+    position: absolute;
+    width: 1921.055px;
+    height: 515.964px;
+    left: 0px;
+    top: 34.946px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_2_dl {
+    opacity: 0.39;
+}
+.Path_2_dl {
+    overflow: visible;
+    position: absolute;
+    width: 1919.899px;
+    height: 535px;
+    left: 0px;
+    top: 15.91px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_3_dn {
+    opacity: 0.39;
+}
+.Path_3_dn {
+    overflow: visible;
+    position: absolute;
+    width: 1919.899px;
+    height: 550.91px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ornament_2x_do {
+    position: absolute;
+    width: 1921.055px;
+    height: 515.964px;
+    left: 0px;
+    top: 34.946px;
+    overflow: visible;
+}
+#Menu_dp {
+    position: absolute;
+    width: 374px;
+    height: 216px;
+    left: 1411px;
+    top: 184.91px;
+    overflow: visible;
+}
+#Beranda_dq {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    color: rgba(255,255,255,1);
+}
+#Tetang_Kami {
+    position: absolute;
+    left: 195px;
+    top: 0px;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    color: rgba(255,255,255,1);
+}
+#Paket_ds {
+    position: absolute;
+    left: 0px;
+    top: 86px;
+    overflow: visible;
+    width: 80px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    color: rgba(255,255,255,1);
+}
+#Artikel_dt {
+    position: absolute;
+    left: 187px;
+    top: 86px;
+    overflow: visible;
+    width: 95px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    color: rgba(255,255,255,1);
+}
+#Kontak_du {
+    position: absolute;
+    left: 0px;
+    top: 172px;
+    overflow: visible;
+    width: 102px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    color: rgba(255,255,255,1);
+}
+#Jl__Villa_Puncak_Tidar_Ae_21_R {
+    position: absolute;
+    left: 568px;
+    top: 212.91px;
+    overflow: visible;
+    width: 646px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 21px;
+    color: rgba(255,255,255,1);
+}
+#ID0812_5339_4280 {
+    position: absolute;
+    left: 568px;
+    top: 285.91px;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#dnizsoft_05_gmail_com {
+    position: absolute;
+    left: 568px;
+    top: 396.91px;
+    overflow: visible;
+    width: 217px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#ID0812_5339_4280_dy {
+    position: absolute;
+    left: 568px;
+    top: 341.91px;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#Email_2x {
+    position: absolute;
+    width: 29px;
+    height: 19px;
+    left: 516px;
+    top: 404.91px;
+    overflow: visible;
+}
+#Group_81_2x {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 516px;
+    top: 342.91px;
+    overflow: visible;
+}
+#Location_2x {
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: 516px;
+    top: 217.91px;
+    overflow: visible;
+}
+#Logo_putih_2x {
+    position: absolute;
+    width: 201px;
+    height: 289px;
+    left: 207px;
+    top: 171.91px;
+    overflow: visible;
+}
+#WA_2x {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 516px;
+    top: 287.91px;
+    overflow: visible;
+}
+#Logo_Main_2x {
+    position: absolute;
+    width: 345px;
+    height: 495px;
+    left: 451px;
+    top: 180px;
+    overflow: visible;
+}
+#Benefit {
+    position: absolute;
+    width: 1042px;
+    height: 503px;
+    left: 447px;
+    top: 1280px;
+    overflow: visible;
+}
+.Ellipse_2 {
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 301px;
+    left: 364px;
+    top: 122px;
+}
+.Ellipse_3 {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    height: 131px;
+    left: 460px;
+    top: 76px;
+}
+.Ellipse_4 {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    height: 131px;
+    left: 311px;
+    top: 192px;
+}
+.Ellipse_5 {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    height: 131px;
+    left: 381px;
+    top: 351px;
+}
+.Ellipse_7 {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    height: 131px;
+    left: 608px;
+    top: 192px;
+}
+.Ellipse_8 {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    height: 131px;
+    left: 541px;
+    top: 351px;
+}
+#Garansi {
+    position: absolute;
+    left: 463px;
+    top: 0px;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Solutif {
+    position: absolute;
+    left: 205px;
+    top: 192px;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Fleksibel {
+    position: absolute;
+    left: 247px;
+    top: 409px;
+    overflow: visible;
+    width: 118px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Perawatan_Berkala {
+    position: absolute;
+    left: 732px;
+    top: 192px;
+    overflow: visible;
+    width: 251px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Konsultasi {
+    position: absolute;
+    left: 665px;
+    top: 409px;
+    overflow: visible;
+    width: 140px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Pendampingan_masa_implementasi {
+    position: absolute;
+    left: 230px;
+    top: 40px;
+    overflow: visible;
+    width: 569px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Memberikan_solusi_untuk_masala {
+    position: absolute;
+    left: 0px;
+    top: 232px;
+    overflow: visible;
+    width: 296px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Software_dapat_disesuaikan__ke {
+    position: absolute;
+    left: 128px;
+    top: 449px;
+    overflow: visible;
+    width: 237px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Adanya_maintenance_untuk__meni {
+    position: absolute;
+    left: 731px;
+    top: 232px;
+    overflow: visible;
+    width: 310px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#Menjadi_teman_diskusi_untuk_me {
+    position: absolute;
+    left: 665px;
+    top: 448px;
+    overflow: visible;
+    width: 378px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(136,187,242,1);
+}
+#shield_2x {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 472px;
+    top: 88px;
+    overflow: visible;
+}
+#ide_2x {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 321px;
+    top: 199px;
+    overflow: visible;
+}
+#flexible_2x {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    left: 381px;
+    top: 351px;
+    overflow: visible;
+}
+#konsul_2x {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    left: 541px;
+    top: 351px;
+    overflow: visible;
+}
+#berkala_2x {
+    filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    left: 608px;
+    top: 192px;
+    overflow: visible;
+}

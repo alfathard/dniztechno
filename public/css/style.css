@@ -793,7 +793,7 @@ color: rgba(136,187,242,1);
     margin-left: -12px;
     margin-right: auto;
     margin-bottom: 10px;
-    height: 250px;
+    height: 191px;
     width: 340px;
   }
 
@@ -1160,6 +1160,54 @@ a {
 
 #header-article-detail{
     height: unset!important;
+}
+
+.article-content div{
+    color: black!important;
+    margin: 7px 0;
+}
+
+.article-content img{
+    width: 80%!important;
+    height: unset!important;
+    display: block;
+    margin: auto;
+}
+
+.whatsapp-button{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:25px;
+    right:25px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.instagram-button{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:95px;
+    right:25px;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
 }
 
 

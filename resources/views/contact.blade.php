@@ -108,6 +108,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="{{ asset ('assets/plugins/bootstrap/js/scripts.js')}}"></script>
+        <script src="https://kit.fontawesome.com/4daf2778af.js" crossorigin="anonymous"></script>
+        <a href="https://instagram.com/dniztechno" class="instagram-button" target="_blank">
+            <i class="fa fa-instagram my-float"></i>
+        </a>
+        <a href="https://wa.me/6281216338672?text=" class="whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
 
         <section class="ss-footer-warp" style="padding-top: 40px">
             <div class="ss-footer" id="footer">

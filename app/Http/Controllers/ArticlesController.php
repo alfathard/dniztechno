@@ -88,6 +88,30 @@ class ArticlesController extends Controller
     }
 
     /**
+     * Store image from ckeditor.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     */
+    public function uploadmedia(Request $request){
+        if ($request->hasFile('upload')) {
+            $file = $request->file('upload');
+            $filename = time() . '_.' . $file->getClientOriginalExtension();
+            $file->move(public_path('public/images/article/media'), $filename);//hapus public path jika live
+            $CKEditorFuncNum = $request->input('CKEditorFuncNum');
+
+            $url = public_path('public/images/article/media/' . $filename);//gunakan asset jika live
+
+            $response = "<script>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$url')</script>";
+            echo $response;
+        }else{
+            return response()->json([
+                'uploaded' => 0,
+                'error' => ['message' => 'No file uploaded.']
+            ]);
+        }
+    }
+
+    /**
      * Display the specified resource.
      *
      * @param  int  $id

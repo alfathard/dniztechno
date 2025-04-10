@@ -28,7 +28,7 @@ class ArticleController extends Controller
             ->paginate(6);
             // ->get()
             // ->toArray();
-           
+
         // $articlepage = DB::table('articles')->whereNull('deleted_at')->paginate(6);
 
         //get contact info
@@ -36,7 +36,7 @@ class ArticleController extends Controller
             ->select('typeContactInfo', 'textContactInfo', 'imgFilepath')
             ->whereNull('deleted_at')
             ->get();
-    
+
         $idp = DB::table('products')->select('idProduct')->whereNull('deleted_at')->first();
         $idps = $idp->idProduct;
 
@@ -91,7 +91,6 @@ class ArticleController extends Controller
     public function detail($id)
     {
         $article = DB::table('articles')->where('idArticle', $id)->first();
-        // return view('articledetail', ['article'=>$article]);
         $createddate = Carbon::parse($article->created_at);
         $dt = $createddate->isoformat('dddd, D MMMM YYYY');
 

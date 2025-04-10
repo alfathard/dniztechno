@@ -59,7 +59,7 @@
                         </div>
                         <div class="content">
                             <p>{{$about->textAbout}}</p>
-                            <a name="" id="" class="btn btn-more" href="/about" role="button">See More</a>
+                            <a name="" id="" class="btn btn-more" href="/about" role="button">Lihat Lebih</a>
                         </div>
                     @endforeach
                 @else
@@ -71,7 +71,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, sunt illo nihil sint, corporis error facilis, veritatis optio iure architecto hic! Commodi atque, rerum magnam architecto quia hic cumque nihil.
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ab voluptatibus architecto! Suscipit, nam. Amet culpa, expedita quasi, distinctio illo possimus quis ad delectus rerum aut sed ab ipsum placeat?
                         </p>
-                        <a name="" id="" class="btn btn-more" href="/about" role="button">See More</a>
+                        <a name="" id="" class="btn btn-more" href="/about" role="button">Lihat Lebih</a>
                     </div>
                 @endif
             </div>
@@ -91,7 +91,7 @@
                 @else
                     <div class="ss-top">
                         <h2>Pilihan Paket</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est nulla possimus, rem, ab eveniet asperiores laborum aliquam laudantium perspiciatis explicabo nesciunt molestiae consectetur, reprehenderit et corrupti magnam ea exercitationem.</p>
+                        <p>Kami menyediakan opsi paket yang bisa anda pilih sesuai dengan kebutuhan bisnis anda.</p>
                     </div>
                 @endif
                 <div class="ss-body">
@@ -104,7 +104,7 @@
                                         <div class="card-body">
                                             <h4 class="card-title">{{$product->nameProduct}}</h4>
                                             <p class="card-text">{{$product->descProduct}}</p>
-                                            <a name="" id="" class="btn btn-sm btn-more mt-4" href="/product/show/{{$product->idProduct}}" role="button">See More</a>
+                                            <a name="" id="" class="btn btn-sm btn-more mt-4" href="/product/show/{{$product->idProduct}}" role="button">Lihat Lebih</a>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SlimProfile</h4>
                                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">See More</a>
+                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">Lihat Lebih</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SlimProfile</h4>
                                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">See More</a>
+                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">Lihat Lebih</a>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SlimProfile</h4>
                                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">See More</a>
+                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">Lihat Lebih</a>
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SlimProfile</h4>
                                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">See More</a>
+                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">Lihat Lebih</a>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SlimProfile</h4>
                                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">See More</a>
+                                        <a name="" id="" class="btn btn-sm btn-more mt-4" href="#" role="button">Lihat Lebih</a>
                                     </div>
                                 </div>
                             </div>
@@ -274,6 +274,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="{{ asset ('assets/plugins/bootstrap/js/scripts.js')}}"></script>
+{{--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.5.0/css/font-awesome.min.css">--}}
+        <script src="https://kit.fontawesome.com/4daf2778af.js" crossorigin="anonymous"></script>
+        <a href="https://instagram.com/dniztechno" class="instagram-button" target="_blank">
+            <i class="fa fa-instagram my-float"></i>
+        </a>
+        <a href="https://wa.me/6281216338672?text=" class="whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </body>
 
     <!-- Footer -->

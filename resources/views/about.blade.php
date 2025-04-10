@@ -130,7 +130,7 @@
                 @else
                     <div class="ss-top">
                         <h2>Telah Menggunakan</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est nulla possimus, rem, ab eveniet asperiores laborum aliquam laudantium perspiciatis explicabo nesciunt molestiae consectetur, reprehenderit et corrupti magnam ea exercitationem.</p>
+                        <p>Produk DnizTechno sudah terbukti dan sudah dipakai oleh perusahaan yang bekerjasama bersama kami.</p>
                     </div>
                 @endif
                 <div class="ss-body">
@@ -193,7 +193,7 @@
                                                         <div class="card-body">
                                                             <h4 class="card-title">Budi Suharjo</h4>
                                                             <p class="card-subtitle">PT Laksana Agung</p>
-                                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                            <p class="card-text">-</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -205,7 +205,7 @@
                                                         <div class="card-body">
                                                             <h4 class="card-title">Budi Suharjo</h4>
                                                             <p class="card-subtitle">PT Laksana Agung</p>
-                                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                            <p class="card-text">-</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -217,7 +217,7 @@
                                                         <div class="card-body">
                                                             <h4 class="card-title">Budi Suharjo</h4>
                                                             <p class="card-subtitle">PT Laksana Agung</p>
-                                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                            <p class="card-text">-</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -231,8 +231,8 @@
                                                 <span class="visually-hidden">Next</span>
                                             </button>
                                         </div>
-                                    @endif
-                                </div>
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     </div>
@@ -254,6 +254,13 @@
                 });
             });
          </script>
+        <script src="https://kit.fontawesome.com/4daf2778af.js" crossorigin="anonymous"></script>
+        <a href="https://instagram.com/dniztechno" class="instagram-button" target="_blank">
+            <i class="fa fa-instagram my-float"></i>
+        </a>
+        <a href="https://wa.me/6281216338672?text=" class="whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </body>
 
     <!-- Footer -->

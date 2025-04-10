@@ -46,6 +46,7 @@ Route::get('/article', 'App\Http\Controllers\Frontend\ArticleController@index');
 Route::get('/article/detail/{id}', 'App\Http\Controllers\Frontend\ArticleController@detail');
 Route::get('/product', 'App\Http\Controllers\Frontend\ProductController@index');
 Route::get('/product/show/{id}', 'App\Http\Controllers\Frontend\ProductController@show');
+Route::post('/article/uploadmedia','App\Http\Controllers\ArticlesController@uploadmedia')->name('article.upload');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

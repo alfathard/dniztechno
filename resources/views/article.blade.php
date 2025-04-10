@@ -43,7 +43,7 @@
                 <header class="row article">
                     <div class="article-data">
                         <div class="title">
-                            <h1 style="font-size: 60px; font-weight: bold;">Article</h1>
+                            <h1 style="font-size: 60px; font-weight: bold;">Artikel</h1>
                         </div>
                     </div>
                 </header>
@@ -59,10 +59,10 @@
                         @foreach ($articles as $article)
                             @php $textarticle = Str::limit($article->textArticle, 200, '....') @endphp
                             @php echo '<div class="col-lg-4 col-md-4 tm-info-box">'; @endphp
-                                <img id='preview-image-before-upload' src='{{ url('public/images/article'.$article->imgFilepath) }}' alt='preview image' class='img-center' style="border-radius: 5px 5px 0 0; object-fit: cover;">
+                                <img id='preview-image-before-upload' src='{{ url('public/images/article/'.$article->imgFilepath) }}' alt='preview image' class='img-center' style="border-radius: 5px 5px 0 0; object-fit: cover;">
                                 @php echo "<h5 class='article-title mb-4'>$article->titleArticle</h5>"; @endphp
                                 {{-- {!! $article->textArticle !!}} --}}
-                                @php echo "<span class='article-p'>$textarticle</span>"; @endphp
+                                <span class='article-p'>{!! strip_tags($textarticle) !!}</span>;
                                 @php echo "<p class='article-date mb-4'>$article->created_at</p>"; @endphp
                                 <div class="d-grid">
                                     <a href='{{ url('/article/detail/'.$article->idArticle) }}' class="btn btn-outline-light">Read More <i class="fa fa-arrow-circle-right fa-sm"></i></a>
@@ -105,6 +105,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="{{ asset ('assets/plugins/bootstrap/js/scripts.js')}}"></script>
+        <script src="https://kit.fontawesome.com/4daf2778af.js" crossorigin="anonymous"></script>
+        <a href="https://instagram.com/dniztechno" class="instagram-button" target="_blank">
+            <i class="fa fa-instagram my-float"></i>
+        </a>
+        <a href="https://wa.me/6281216338672?text=" class="whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </body>
 
     <!-- Footer -->

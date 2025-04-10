@@ -59,19 +59,19 @@
             <div class="container">
                 <div class="article-data">
                     <a href='/article' class ='container tm-info-box-b' style="text-decoration: none; font-size: 16px; font-style: italic; color: #88BBF2;">
-                        <i class="fas fa-arrow-left fa-sm"></i> Back to articles
+                        <i class="fas fa-arrow-left fa-sm"></i> Kembali
                     </a>
                     <div class="title" style="max-width: 800px; margin: auto; padding: 10px">
                         <h1 style="font-size: 48px; font-weight: bold;">{{$article->titleArticle}}</h1>
                     </div>
                     <p style="font-size: 16px; font-style: italic; color: #88BBF2; text-align: center; ">{{$dt}}</p>
-                    <img id='preview-image-before-upload' src='{{ url('public/images/article'.$article->imgFilepath) }}' alt='preview image' class='img-detail' style="padding:10px">
+                    <img id='preview-image-before-upload' src='{{ url('public/images/article/'.$article->imgFilepath) }}' alt='preview image' class='img-detail' style="padding:10px">
                 </div>
-                <div class="textarea" style="max-width: 800px; margin: auto; padding: 10px; color:white"><p class="p mb-4">{!! $article->textArticle !!}</p></div>
+                <div class="textarea article-content" style="max-width: 800px; margin: auto; padding: 10px; color:white"><p class="p mb-4">{!! $article->textArticle !!}</p></div>
             </div>
             <!-- Back to Top link -->
             <div class="back-to-top-wrapper">
-                <a href="#top" class="back-to-top-link" style="font-size: 16px" aria-label="Scroll to Top"><i class="fas fa-arrow-up fa-sm"></i> Back to top</a>
+                <a href="#top" class="back-to-top-link" style="font-size: 16px" aria-label="Scroll to Top"><i class="fas fa-arrow-up fa-sm"></i> Kembali ke atas</a>
             </div>
 
             <script type="text/javascript">
@@ -105,6 +105,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="{{ asset ('assets/plugins/bootstrap/js/scripts.js')}}"></script>
+        <script src="https://kit.fontawesome.com/4daf2778af.js" crossorigin="anonymous"></script>
+        <a href="https://instagram.com/dniztechno" class="instagram-button" target="_blank">
+            <i class="fa fa-instagram my-float"></i>
+        </a>
+        <a href="https://wa.me/6281216338672?text=" class="whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </body>
 
     <!-- Footer -->

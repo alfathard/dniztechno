@@ -55,10 +55,10 @@ class ContactsInfoController extends Controller
             $request->validate([
                 'imgFilepath' => 'image|mimes:jpg,png,jpeg,gif,svg|max:2048',
               ]);
-            
+
             $filee = $request->file('imgFilepath');
             $fileName = $filee->getClientOriginalName();
-            $filee->get('public/images',$fileName);
+            $filee->move('public/images',$fileName);
             $image = $fileName;
         }
 
@@ -67,8 +67,8 @@ class ContactsInfoController extends Controller
             $contactinfo->typeContactInfo = $request->input('typeContactInfo');
             $contactinfo->textContactInfo = $request->input('textContactInfo');
             $contactinfo->imgFilepath = $image;
-            $contactinfo->created_by = $request->user()->name; 
-            $contactinfo->updated_by = $request->user()->name; 
+            $contactinfo->created_by = $request->user()->name;
+            $contactinfo->updated_by = $request->user()->name;
             $contactinfo->save();
 
         } catch(Exception $errors) {
@@ -130,7 +130,7 @@ class ContactsInfoController extends Controller
                 $request->validate([
                     'imgFilepath' => 'image|mimes:jpg,png,jpeg,gif,svg|max:2048',
                   ]);
-                
+
                 $filee = $request->file('imgFilepath');
                 $fileName = $filee->getClientOriginalName();
                 $filee->move('public/images',$fileName);
@@ -141,7 +141,7 @@ class ContactsInfoController extends Controller
 
             $contactinfo->typeContactInfo = $request->input('typeContactInfo');
             $contactinfo->textContactInfo = $request->input('textContactInfo');
-            $contactinfo->updated_by = $request->user()->name; 
+            $contactinfo->updated_by = $request->user()->name;
             $contactinfo->save();
 
         } catch(Exception $errors) {

@@ -34,7 +34,7 @@
                                     <a class="nav-link" href="/article">Artikel</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/contact">Kontak</a>
+                                    <a class="nav-link" target="_blank" href="http://45.32.99.13:81/">Kontak</a>
                                 </li>
                             </ul>
                         </div>
@@ -233,7 +233,81 @@
                                         </div>
                                     </div>
                                 @endif
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contactus">
+            <div class="container">
+                <div class="row" id="contact-flex">
+                    <!-- Contact Info -->
+                    <div class="col-12 col-sm-6" id="contact-info">
+                        @if(count($contacts) > 0)
+                            @foreach($contacts as $contact)
+                                <div class="contactus-title">
+                                    <p>{{$contact->titleContactUs}}</p>
+                                </div>
+                                <div class="contactus-content">
+                                    <p>{{$contact->textContactUs}}</p>
+                                </div>
+                            @endforeach
+                        @else
+                            <div class="contactus-title">
+                                <h1>Kontak</h1>
                             </div>
+                            <div class="contactus-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit sit amet ipsum eget pretium. Cras condimentum lorem non quam ullamcorper vulputate.
+                                </p>
+                            </div>
+                        @endif
+                        <div class="contactus-detail">
+                            <table>
+                                <tbody>
+                                @if(count($contactsinfo) > 0)
+                                    @foreach($contactsinfo as $contactinfo)
+                                        <tr>
+                                            <td><img id="contactus-img" src="{{ url('public/images/'.$contactinfo->imgFilepath) }}" alt="preview image" style="max-height: 30px; margin-right: 15px;"></td>
+                                            <td><span>{{$contactinfo->textContactInfo}}</span></td>
+                                        </tr>
+                                    @endforeach
+                                @endif
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Contact Us -->
+                    <div class="col-12 col-sm-6">
+                        <div class="contactus-box">
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                style="border:0"
+                                loading="lazy"
+                                allowfullscreen
+                                referrerpolicy="no-referrer-when-downgrade"
+                                src="https://maps.google.com/maps?q=-7.989311343696066,112.61743719544343&hl=id&z=17&output=embed">
+                            </iframe>
+
+                            {{--                            <div class="contactus-box-title">Ada Pertanyaan?</div>--}}
+{{--                            <div class="contactus-box-subtitle">Pertanyaan anda dapat dikirimkan lewat pengisian formulir di bawah ini</div>--}}
+{{--                            {!! Form::open(['action' => 'App\Http\Controllers\ContactsListController@store', 'method' => 'POST']) !!}--}}
+{{--                            <div class="form-group d-flex">--}}
+{{--                                {{Form::text('nameContact', '', ['class' => 'form-control contactus-input-box', 'placeholder' => 'Your Name'])}}--}}
+{{--                            </div>--}}
+{{--                            <div class="form-group d-flex">--}}
+{{--                                {{Form::text('emailContact', '', ['class' => 'form-control contactus-input-box', 'placeholder' => 'Your Email'])}}--}}
+{{--                            </div>--}}
+{{--                            <div class="form-group d-flex">--}}
+{{--                                {{Form::textarea('textContact', '', ['class' => 'form-control contactus-input-box','style' => 'height:150px', 'placeholder' => 'Type in your question here'])}}--}}
+{{--                            </div>--}}
+{{--                            <div class="d-grid">--}}
+{{--                                {{Form::submit('Send Your Message', ['class' => 'btn contactus-button'])}}--}}
+{{--                            </div>--}}
+{{--                            {!! Form::close() !!}--}}
                         </div>
                     </div>
                 </div>

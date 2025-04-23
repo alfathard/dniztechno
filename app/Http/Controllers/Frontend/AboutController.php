@@ -40,7 +40,7 @@ class AboutController extends Controller
             ->select('titleMission', 'textMission')
             ->whereNull('deleted_at')
             ->get();
-        
+
         //get testimoni header
         $testimonies = DB::table('testimonies')
         ->select('titleTestimoni', 'textTestimoni')
@@ -59,6 +59,12 @@ class AboutController extends Controller
             ->whereNull('deleted_at')
             ->get();
 
+        //get contact header
+        $contacts = DB::table('contacts')
+            ->select('titleContactUs', 'textContactUs')
+            ->whereNull('deleted_at')
+            ->get();
+
         $idp = DB::table('products')->select('idProduct')->whereNull('deleted_at')->first();
         $idps = $idp->idProduct;
 
@@ -69,6 +75,7 @@ class AboutController extends Controller
             ->with('cust_testimonies', $cust_testimonies)
             ->with('abouts', $abouts)
             ->with('contactsinfo', $contactsinfo)
+            ->with('contacts', $contacts)
             ->with('idps',$idps);
     }
 

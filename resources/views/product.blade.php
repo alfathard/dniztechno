@@ -34,7 +34,7 @@
                                     <a class="nav-link" href="/article">Artikel</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/contact">Kontak</a>
+                                    <a class="nav-link" target="_blank" href="http://45.32.99.13:81/">Kontak</a>
                                 </li>
                             </ul>
                         </div>
